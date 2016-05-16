@@ -1,3 +1,3 @@
-# 3 HTML Tag Overview
+# 1 HTML Tag Overview
 
 HTML Tag Overview tutorial goes here.

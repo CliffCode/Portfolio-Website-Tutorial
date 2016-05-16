@@ -1,3 +1,3 @@
-# 3 Navigation Bar Tutorial
+# 3 CSS Basics
 
-Navigation Bar tutorial goes here.
+CSS Styling tutorial goes here.
