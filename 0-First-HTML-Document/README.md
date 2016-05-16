@@ -4,6 +4,8 @@ This tutorial series assumes that you know how to navigate around your computer.
 through folders and moving files around.
 
 If you aren't already familiar with this, don't worry, you can learn more here:
+[Mac] (https://support.apple.com/kb/PH22171?locale=en_US)
+[Windows] (http://www.groovypost.com/howto/windows-10-files-folders-file-explorer/)
 
 ## 0.1 Obtaining a text editor
 When writing software, one must use a text editor. A text editor is a program similar to Microsoft Word. Except that instead
