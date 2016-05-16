@@ -57,17 +57,44 @@ intro to JavaScript tutorial.
 Let's go ahead nad create our very first HTML document. Something cool about HTML elements is that they can be nested
 inside other HTML elements. What does that look like? This:
 
-```
+```html
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <body></body>
+    <head>
+        <meta charset=UTF-8>
+        <title>My First Web Page</title>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+    </body>
 </html>
 ```
 
 In the example above, you can see that it is indeed possible to put HTML elements inside of other HTML elements.
-Let's break down the HTML document above.
+Let's break down the HTML document above. You can also see that it's possible to have the opening and closing tag of an HTML
+element on different lines. This allows the document to be easier to read for the programmer. It has no effect on how the web
+browser interprets the HTML code.
 
-At the top of the HTML document is this weird looking DOCTYPE tag. What that does is specify to the web browser what kind
+So what exactly is going on in this HTML document? At the top of the HTML document is this weird looking DOCTYPE tag. What that does is specify to the web browser what kind
 of document is contained in the file. In this case, it is an HTML document. This tag puts the web browser in [Standards Mode.]
 (https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode)
+
+The next line is the HTML tag. This is the root element of the html page. The contents of this tag is the contents of your
+entire web page. In the example above, the HTML element has two elements inside of it, the head and body elements.
+
+The head element contains information about the web page, or meta data. In our example above, we specify two things, the
+character set, and the title of the web page. The character set specifies how the text for the page should be encoded.
+This tag is slightly different than the other tags, as it just has an opening tag. Certain tags in HTML allow this. Another
+example of a tag like the meta tag is the img tag.
+
+The stuff inside of the html tag (``` charset=UTF-8 ```) is called an attribute. HTML Tags can have attributes
+which include more information about the tag. We will be talk about these more in a bit.
+
+Last but not least is the title of the web page. This specifies the text that will appear on the top of the tag in the web
+browser.
+
+Finally, we have the body tag which contains the meat of our web page. Most of
+the HTML that you write will go inside of the body element. In our body element, we added an h1 tag, which specifies a large heading.
+Try adding a paragraph tag on the line below with some text!
+
+
